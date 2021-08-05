@@ -127,7 +127,7 @@ if (isset($_GET['logout'])) {
             <div class="col-sm-6 col-lg-4">
                 <a href="assets/img/fullsize/1.jpg" class="portfolio-box" style="background-image: url(&quot;assets/img/IMAGE%202019-12-06%20101120.jpg&quot;);">
                     <img class="img-fluid" src="assets/img/thumbnails/1.jpg" alt="fluid">
-                    <div class="portfolio-box-caption" style="background-color: #2a1a17;">
+                    <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                             </div>

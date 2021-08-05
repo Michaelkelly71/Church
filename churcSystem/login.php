@@ -55,7 +55,7 @@ include('design.php');
 
      
           <div class="input-group">
-             <button type="submit" class="btn" name="login" style="background-color: green; border-radius: 13px; border: none; height: 20px; width: 2%;" >Login</button>
+             <button type="submit" class="btn" name="login" style="background-color: green; border-radius: 13px; border: none; height: 20px; width: 5%;" >Login</button>
         </div>
 
          <strong>

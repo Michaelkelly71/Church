@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 21, 2019 at 09:30 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Aug 06, 2021 at 06:33 AM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 7.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `church_mgmt`
+-- Database: `ch`
 --
 
 -- --------------------------------------------------------
@@ -49,20 +48,23 @@ INSERT INTO `contact` (`ID`, `Number`, `Email`) VALUES
 
 CREATE TABLE `events` (
   `ID` int(11) NOT NULL,
-  `Date` date NOT NULL,
-  `Day` varchar(50) NOT NULL,
-  `Time` time NOT NULL,
   `Coordinator` varchar(250) NOT NULL,
+  `scriptureReader` varchar(100) NOT NULL,
+  `TitheOffering` varchar(100) NOT NULL,
+  `Prayer` varchar(100) NOT NULL,
   `Speaker` varchar(250) NOT NULL,
-  `Topic` text NOT NULL
+  `Topic` text NOT NULL,
+  `adDate` date NOT NULL,
+  `Day` varchar(50) NOT NULL,
+  `adTime` time NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `events`
 --
 
-INSERT INTO `events` (`ID`, `Date`, `Day`, `Time`, `Coordinator`, `Speaker`, `Topic`) VALUES
-(1, '2019-12-01', 'Sunday', '19:00:00', 'Mad. Comfort Amoako', 'Pr. Joe Hagan', 'Prayer, Praise And Thanksgiving');
+INSERT INTO `events` (`ID`, `Coordinator`, `scriptureReader`, `TitheOffering`, `Prayer`, `Speaker`, `Topic`, `adDate`, `Day`, `adTime`) VALUES
+(1, 'Mad. Comfort Amoako', '', '', '', 'Pr. Joe Hagan', 'Prayer, Praise And Thanksgiving', '2019-12-01', 'Sunday', '19:00:00');
 
 -- --------------------------------------------------------
 
@@ -99,15 +101,39 @@ CREATE TABLE `members` (
   `M.I` varchar(50) DEFAULT NULL,
   `Address` varchar(250) NOT NULL,
   `Date of Birth` date NOT NULL,
-  `Gender` varchar(6) NOT NULL
+  `Gender` varchar(6) NOT NULL,
+  `Position` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `members`
 --
 
-INSERT INTO `members` (`ID`, `FName`, `LName`, `M.I`, `Address`, `Date of Birth`, `Gender`) VALUES
-(1, 'Kofi', 'Babone', 'J.J', '211 pine ave', '1998-02-14', 'Male');
+INSERT INTO `members` (`ID`, `FName`, `LName`, `M.I`, `Address`, `Date of Birth`, `Gender`, `Position`) VALUES
+(1, 'Kofi', 'Babone', 'J.J', '211 pine ave', '1998-02-14', 'Male', 'Member');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sabbathschool`
+--
+
+CREATE TABLE `sabbathschool` (
+  `ID` int(11) NOT NULL,
+  `Coordinator` varchar(100) NOT NULL,
+  `Supretendent` varchar(150) NOT NULL,
+  `Prayer` varchar(150) NOT NULL,
+  `adDate` date NOT NULL,
+  `Day` varchar(100) NOT NULL,
+  `adTime` time(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `sabbathschool`
+--
+
+INSERT INTO `sabbathschool` (`ID`, `Coordinator`, `Supretendent`, `Prayer`, `adDate`, `Day`, `adTime`) VALUES
+(1, 'Amanda', 'Natlie', 'David', '2021-07-24', 'Saturday', '08:08:44.000000');
 
 -- --------------------------------------------------------
 
@@ -161,6 +187,12 @@ ALTER TABLE `members`
   ADD PRIMARY KEY (`ID`);
 
 --
+-- Indexes for table `sabbathschool`
+--
+ALTER TABLE `sabbathschool`
+  ADD PRIMARY KEY (`ID`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -187,6 +219,12 @@ ALTER TABLE `events`
 --
 ALTER TABLE `members`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `sabbathschool`
+--
+ALTER TABLE `sabbathschool`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`
