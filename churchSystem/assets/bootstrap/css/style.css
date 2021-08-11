@@ -8906,7 +8906,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #f05f40
+  border-color: #63a5ef
 }
 
 hr.light {
@@ -9152,7 +9152,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #f05f40 !important
+  color: #63a5ef !important
 }
 
 .btn {
@@ -9166,6 +9166,7 @@ header.masthead p {
 .btn-xl {
   padding: 1rem 2rem
 }
+
 
 .btn-primary {
   background-color: #f05f40;

@@ -3,6 +3,17 @@
     padding: 0;
 
 }
+
+element.style {
+    color: rgb(72,132,191);
+    background-color: #63a5ef;
+}
+
+
+element.style {
+    background-color: #63a5ef;
+}
+
 body{
     background:
     url("adventist-en-centered--denim.png") top center no-repeat,

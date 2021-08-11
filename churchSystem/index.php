@@ -14,7 +14,7 @@
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" 
-    style="color: rgb(72,132,191); background-color:darkgrey;" >
+    style="color: rgb(72,132,191); background-color:#63a5ef;" >
         <div class="container">
              <img src="adventist-en-centered--denim.png" style="height:7%; width:15%; padding-right: 30px;" alt= "logo">
             <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive"
@@ -52,7 +52,7 @@
         </div>
 
     </nav>
-    <br><header class="masthead text-center text-white d-flex" style="background-color: grey;">
+    <br><header class="masthead text-center text-white d-flex" style="background-color: #63a5ef;">
         <div class="container my-auto">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
@@ -64,8 +64,8 @@
             <div class="col-lg-8 mx-auto">
                 <p class="text-faded mb-5">"The Church is not a gallery for the better exhibition of eminent Christians, but a school for the education of imperfect ones."</p>
                 <p>-Henry Ward Beecher</p>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services" style="background-color: rgb(74,76,143);">Find Out More</a><br><br><br>
-                <a class="btn-primary btn-xl js-scroll-trigger" rol="button" href="viewmembersUser.php" style="background-color:black; border-radius:18px">Church Members</a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services" style="background-color: #f05f40;">Find Out More</a><br><br><br>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" rol="button" href="viewmembersUser.php" style="background-color: #f05f40;;">Church Members</a>
             </div>
         </div>
     </header>
