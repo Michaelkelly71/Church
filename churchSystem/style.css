@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:
+    url("adventist-en-centered--denim.png") top center no-repeat,
+    url("login background.jpg") no-repeat;
+    
+    background-size: 140px 130px, 245px 130px, cover;
+    font-size: 120%;
+    font-family: sans-serif;
+}
+.header {
+    width: 30%;
+    margin: 50px auto 0;
+    color: black;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+form, .content {
+    position: relative;
+    left: 10%;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background: none;
+    border-radius: 0 0 10px 10px;
+}
+.input-group {
+    margin: 10px 0 10px 0;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    position: relative;
+    text-align: center;
+    top: 10px;
+    left: 160px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #407173;
+}
+.error{
+    width: 92%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.reset{
+    position: relative;
+    top: 20px;
+}
+.signup{
+    position: relative;
+    top: 30px;
+}
+.home{
+    position: relative;
+    top: 22px;
+    text-align: right;
+}
+.login{
+    position: relative;
+    top: 20px;
+}
+.resetbtn{
+    position: relative;
+    right: 50px;
+}
