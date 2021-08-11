@@ -31,9 +31,7 @@
                         <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
                     </li>
 
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link js-scroll-trigger" href="#announcement">Announcements</a>
-                    </li>
+
 
                     <li class="nav-item" role="presentation">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -174,19 +172,7 @@
         </div>
     </section>
 
-    <section  id="announcement" >
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">Announcement!</h2>
-                    <hr class="my-4">
-                    <p class="mb-5">Hello!</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
+  
 
     <section id="contact">
         <hr>
