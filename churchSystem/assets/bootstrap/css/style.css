@@ -136,10 +136,13 @@ figure {
 
 img {
   border-style: none
+ 
 }
 
 img, svg {
   vertical-align: middle
+  
+
 }
 
 svg {
@@ -496,8 +499,10 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-top: 55px;
   margin-right: -15px;
   margin-left: -15px
+  
 }
 
 .no-gutters {
@@ -3956,7 +3961,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   }
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox !important;
-    display: flex !important;
+    display: contents !important;
     flex-basis: auto
   }
   .navbar-expand-lg .navbar-toggler {
@@ -8906,7 +8911,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #63a5ef
+  border-color: #F4BF55
 }
 
 hr.light {
@@ -8918,7 +8923,7 @@ a {
 }
 
 a, a:hover {
-  color: #f05f40
+  color: #08A0CA
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8999,7 +9004,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #f05f40 !important;
+  color: #F4BF55 !important;
   background-color: transparent
 }
 
@@ -9106,7 +9111,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, .9);
+  background: #f4bf55c9;
   transition: all .2s
 }
 
@@ -9152,7 +9157,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #63a5ef !important
+  color: #08A0CA !important
 }
 
 .btn {
@@ -9169,8 +9174,8 @@ header.masthead p {
 
 
 .btn-primary {
-  background-color: #f05f40;
-  border-color: #f05f40
+  background-color: #F4BF55;
+  border-color: #F4BF55
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
