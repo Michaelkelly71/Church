@@ -154,7 +154,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`ID`, `username`, `password`, `acctype`) VALUES
 (1, 'test', 'admin', 'admin'),
-(2, 'Kiki', 'test', 'user'),
+(2, 'church', 'test', 'user'),
 (7, 'hi', 'red', 'user');
 
 --

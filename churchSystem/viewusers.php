@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root", "", "church_mgmt");
+$db = mysqli_connect("localhost", "root", "mack1234", "ch");
 $query = "select * from users ORDER BY ID";
 $result = mysqli_query($db, $query);;
 ?>

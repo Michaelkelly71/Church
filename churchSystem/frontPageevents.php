@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root", "", "ch");
+$db = mysqli_connect("localhost", "root", "mack1234", "ch");
 $query = "select * from events";
 $result = mysqli_query($db, $query);
 ?>
@@ -84,7 +84,7 @@ $result = mysqli_query($db, $query);
     </div><br><br>
 
     <?php
-    $db = mysqli_connect("localhost", "root", "", "ch");
+    $db = mysqli_connect("localhost", "root", "mack1234", "ch");
     $query="select * from sabbathSchool";
     $result = mysqli_query($db, $query);;
      ?>

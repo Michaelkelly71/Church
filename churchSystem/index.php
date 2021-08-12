@@ -14,7 +14,7 @@
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" 
-    style="color: rgb(72,132,191); background-color:#63a5ef;" >
+    style="color: rgb(72,132,191); background-color:#08A0CA;" >
         <div class="container">
              <img src="adventist-en-centered--denim.png" style="height:7%; width:15%; padding-right: 30px;" alt= "logo">
             <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive"
@@ -50,7 +50,7 @@
         </div>
 
     </nav>
-    <br><header class="masthead text-center text-white d-flex" style="background-color: #63a5ef;">
+    <br><header class="masthead text-center text-white d-flex" style="background-color: #08A0CA;">
         <div class="container my-auto">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
@@ -62,8 +62,8 @@
             <div class="col-lg-8 mx-auto">
                 <p class="text-faded mb-5">"The Church is not a gallery for the better exhibition of eminent Christians, but a school for the education of imperfect ones."</p>
                 <p>-Henry Ward Beecher</p>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services" style="background-color: #f05f40;">Find Out More</a><br><br><br>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" rol="button" href="viewmembersUser.php" style="background-color: #f05f40;;">Church Members</a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services" >Find Out More</a><br><br><br>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" rol="button" href="viewmembersUser.php">Church Members</a>
             </div>
         </div>
     </header>
@@ -79,7 +79,7 @@
         <div class="container">
             <div class="row" style="color: rgb(0,0,0);">
                 <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5"><i class="fa fa-diamond fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true" style="color: rgb(82,52,52);"></i>
+                    <div class="mx-auto service-box mt-5"><i class="fa fa-diamond fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true" style="color: #08A0CA;"></i>
                         <h3 class="mb-3">Sunday Bible Sudies. Time: 7:30pm - 8:30pm</h3>
                         <p class="text-muted mb-0">Come and let us share the words of God together growing as one family</p>
                     </div>

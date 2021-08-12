@@ -16,7 +16,7 @@
 <header>
     <div class="row">
         <div class="logo">
-            <img src="VVU%20logo.png" alt="logo">
+            <img src="VVU%20logo.png" style="width:100px; height:80px" alt="logo">
         </div>
     </div>
 

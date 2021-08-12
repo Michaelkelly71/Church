@@ -4,16 +4,6 @@
 
 }
 
-element.style {
-    color: rgb(72,132,191);
-    background-color: #63a5ef;
-}
-
-
-element.style {
-    background-color: #63a5ef;
-}
-
 body{
     background:
     url("adventist-en-centered--denim.png") top center no-repeat,
@@ -58,6 +48,7 @@ form, .content {
     border-radius: 5px;
     border: 1px solid gray;
 }
+
 .btn {
     position: relative;
     text-align: center;
@@ -112,4 +103,14 @@ form, .content {
 .resetbtn{
     position: relative;
     right: 50px;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
 }
