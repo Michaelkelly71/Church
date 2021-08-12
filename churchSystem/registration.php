@@ -53,14 +53,17 @@ include('design.php');
         </div><br><br>
 
         <div class="input-group">
-             <button type="submit" name="register" class="btn">Register</button>
+        <button type="submit" class="btn" name="register" style="background-color: #08A0CA;; border-radius: 13px; border: none; height: 40px; width: 10%;" >
+        Register
+         </button>
+            
         </div>
         <div class="login">
             <p>
                 Already a member? <a href="login.php">Login</a>
             </p>
         </div>
-        <div class="home">
+        <div class="home" style="#F4BF55">
             <p>
                 Return home? <a href="index.php">Click Here</a>
             </p>
