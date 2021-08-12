@@ -24,7 +24,7 @@ include('design.php');
 </head>
 <body class="body">
     <div align="center">
-    <img src="adventist-en-centered--denim.png" style="height:25%; width:30%;">
+    <img src="adventist-en-centered--denim2.png" style="height:25%; width:30%;">
                <h2>Register</h2>
 
     <form  method="post" action="registration.php">
