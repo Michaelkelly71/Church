@@ -31,7 +31,7 @@
                         <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
                     </li>
 
-
+                    
 
                     <li class="nav-item" role="presentation">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -172,7 +172,7 @@
         </div>
     </section>
 
-  
+
 
     <section id="contact">
         <hr>
