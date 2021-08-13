@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root", "mack1234", "ch");
+$db = mysqli_connect("localhost", "root", "", "ch");
 $query = "select * from events";
 $result = mysqli_query($db, $query);
 ?>
@@ -46,7 +46,7 @@ $result = mysqli_query($db, $query);
         </div>
      
 <div class="container" style="width:900px;">
-    <h1 align="center" style="color:darkblue;">Devine Service Officials</h1>
+    <h1 align="center" style="color:darkblue;">Divine Service Officials</h1>
     <div class="table-responsive" id="employee_table">
         <table class="table table-striped">
             <tr>
@@ -67,14 +67,11 @@ $result = mysqli_query($db, $query);
                 ?>
                 <tr>
                     <td ><?php echo $row["Coordinator"]; ?></td>
-                    <td ><?php echo $row["scriptureReader"]; ?></td>
-                    <td ><?php echo $row["TitheOffering"]; ?></td>
-                    <td ><?php echo $row["Prayer"]; ?></td>
                     <td ><?php echo $row["Speaker"]; ?></td>
                     <td ><?php echo $row["Topic"]; ?></td>
-                    <td ><?php echo $row["adDate"]; ?></td>
+                    <td ><?php echo $row["Date"]; ?></td>
                     <td ><?php echo $row["Day"]; ?></td>
-                    <td ><?php echo $row["adTime"]; ?></td>
+                    <td ><?php echo $row["Time"]; ?></td>
                                
                 </tr>
                 <?php
@@ -84,8 +81,8 @@ $result = mysqli_query($db, $query);
     </div><br><br>
 
     <?php
-    $db = mysqli_connect("localhost", "root", "mack1234", "ch");
-    $query="select * from sabbathSchool";
+    $db = mysqli_connect("localhost", "root", "", "ch");
+    $query="select * from events";
     $result = mysqli_query($db, $query);;
      ?>
 
@@ -107,11 +104,11 @@ $result = mysqli_query($db, $query);
                 ?>
                 <tr>
                     <td ><?php echo $row["Coordinator"]; ?></td>
-                    <td ><?php echo $row["Supretendent"]; ?></td>
-                    <td ><?php echo $row["Prayer"]; ?></td>
-                    <td ><?php echo $row["adDate"]; ?></td>
-                    <td ><?php echo $row["Day"]; ?></td>
-                    <td ><?php echo $row["adTime"]; ?></td>
+                    <td ><?php echo $row["Date"]; ?></td>
+                    <td ><?php echo $row["Speaker"]; ?></td>
+                    <td ><?php echo $row["Topic"]; ?></td>
+                    <td ><?php echo $row["Time"]; ?></td>
+                   
                                
                 </tr>
                 <?php

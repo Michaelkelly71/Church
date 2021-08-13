@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root", "mack1234", "ch");
+$db = mysqli_connect("localhost", "root", "", "ch");
 $query ="select * from members ORDER BY id";
 $result = mysqli_query($db, $query);
 $query2 ="select * from contact ORDER BY id";
@@ -42,7 +42,7 @@ $result2 = mysqli_query($db, $query2);
                 <th width="10%">Gender</th>
                 <th width="20%">Phone Number</th>
                 <th width="20%">M.I</th>
-                <th width="20%">Position</th>
+              
             </tr>
             <?php
 
@@ -60,7 +60,7 @@ $result2 = mysqli_query($db, $query2);
                     <td><?php echo $row["Gender"]; ?></td>
                     <td><?php echo $row2["Number"]; ?></td>
                     <td><?php echo $row["M.I"]; ?></td>
-                    <td><?php echo $row["Position"]; ?></td>
+                    
                 </tr>
                 <?php
             }
