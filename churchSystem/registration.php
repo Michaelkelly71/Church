@@ -66,7 +66,7 @@ include('design.php');
                 Already a member? <a href="login.php">Login</a>
             </p>
         </div>
-        <div class="home" style="#F4BF55">
+        <div class="home" style="color: #F4BF55">
             <p>
                 Return home? <a href="index.php">Click Here</a>
             </p>
