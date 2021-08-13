@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<?php
-$db = mysqli_connect("localhost", "root", "", "ch");
-$query = "select * from events";
-$result = mysqli_query($db, $query);
-?>
->>>>>>> 2fbf81b44cc825c8132b5a1816d305950bf7cf9b
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +40,6 @@ $result = mysqli_query($db, $query);
                 </div>
             </div>
      
-<<<<<<< HEAD
 
 
     
@@ -60,48 +51,6 @@ $result = mysqli_query($db, $query);
         $query="select * from sabbathSchool";
         $result = mysqli_query($db, $query);;
     ?>
-=======
-<div class="container" style="width:900px;">
-    <h1 align="center" style="color:darkblue;">Divine Service Officials</h1>
-    <div class="table-responsive" id="employee_table">
-        <table class="table table-striped">
-            <tr>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Coordinator</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Scripture Reading</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Tithe & Offering</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Prayer</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Speaker</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Topic</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Date</th>
-                <th width="15%" style="background-color:lavenderblush; color: darkblue;">Day</th>
-                <th width="5%" style="background-color:lavenderblush; color: darkblue;">Time</th>    
-            </tr>
-            <?php
-
-            while($row = mysqli_fetch_array($result))
-            {
-                ?>
-                <tr>
-                    <td ><?php echo $row["Coordinator"]; ?></td>
-                    <td ><?php echo $row["Speaker"]; ?></td>
-                    <td ><?php echo $row["Topic"]; ?></td>
-                    <td ><?php echo $row["Date"]; ?></td>
-                    <td ><?php echo $row["Day"]; ?></td>
-                    <td ><?php echo $row["Time"]; ?></td>
-                               
-                </tr>
-                <?php
-            }
-            ?>
-        </table>
-    </div><br><br>
-
-    <?php
-    $db = mysqli_connect("localhost", "root", "", "ch");
-    $query="select * from events";
-    $result = mysqli_query($db, $query);;
-     ?>
->>>>>>> 2fbf81b44cc825c8132b5a1816d305950bf7cf9b
 
     <h1 align="center" style="color:darkblue;">Sabbath School Officials</h1>
     <div class="table-responsive" id="employee_table">
@@ -118,7 +67,6 @@ $result = mysqli_query($db, $query);
             <?php
 
             while($row = mysqli_fetch_array($result))
-<<<<<<< HEAD
                 {
             ?>
                     <tr>
@@ -132,21 +80,6 @@ $result = mysqli_query($db, $query);
                     </tr>
             <?php
                 }
-=======
-            {
-                ?>
-                <tr>
-                    <td ><?php echo $row["Coordinator"]; ?></td>
-                    <td ><?php echo $row["Date"]; ?></td>
-                    <td ><?php echo $row["Speaker"]; ?></td>
-                    <td ><?php echo $row["Topic"]; ?></td>
-                    <td ><?php echo $row["Time"]; ?></td>
-                   
-                               
-                </tr>
-                <?php
-            }
->>>>>>> 2fbf81b44cc825c8132b5a1816d305950bf7cf9b
             ?>
         </table>
     </div>
@@ -185,7 +118,7 @@ $result = mysqli_query($db, $query);
                         <tr>
                             <td ><?php echo $row["Coordinator"]; ?></td>
                             <td ><?php echo $row["scriptureReader"]; ?></td>
-                            <td ><?php echo $row["TitheOffering"]; ?></td>
+                            <td ><?php echo $row["TitheOffering"]  ; ?></td>
                             <td ><?php echo $row["Prayer"]; ?></td>
                             <td ><?php echo $row["Speaker"]; ?></td>
                             <td ><?php echo $row["Topic"]; ?></td>

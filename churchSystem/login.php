@@ -32,7 +32,7 @@ include('design.php');
             </p>
         </div>
         
-<div align="center">
+<div align = "center">
             <img src="adventist-en-centered--denim.png" style="height:25%; width:30%;">
                <h2>Login</h2>
     <form method="post" action="login.php">
