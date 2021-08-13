@@ -30,6 +30,8 @@ include('design.php');
     <div align="center">
     <img src="adventist-en-centered--denim.png" style="height:25%; width:30%;">
                <h2 style="color:#ffffff">Register</h2>
+    <img src="adventist-en-centered--denim2.png" style="height:25%; width:30%;">
+    <h2 style="color:#ffffff">Register</h2>
 
     <form  method="post" action="registration.php">
 
