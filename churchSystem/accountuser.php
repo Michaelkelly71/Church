@@ -21,9 +21,9 @@ if (isset($_GET['logout'])) {
 </head>
 
 <body id="page-top">
-<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color: #ffffff;">
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color:#08A0CA; background-color:#08A0CA">
     <div class="container">
-        <a id="logo" class="navbar-brand js-scroll-trigger" href="profileuser.php"><img src="adventist-en-centered--denim.png",top left no-repeat, width="100" height="100" alt= "logo">&nbsp; G S W C</a>
+        <a id="logo" class="navbar-brand js-scroll-trigger" href="profileuser.php"><img src="adventist-en-centered--denim.png",top left no-repeat, width="100" height="70" alt= "logo">&nbsp; G S W C</a>
 
         <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive"
                 type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,12 +56,13 @@ if (isset($_GET['logout'])) {
       <!----------===================------------->
         <!-- logged in user information -->
         <?php  if (isset($_SESSION['username'])) : ?>
-            <p>Welcome <strong style="font-size:20px; color: red;"><?php echo $_SESSION['username']; ?></strong></p>
-            <br>
-             <button style="background-color: #F4BF55; color:#ffffff; height: 40px; width: 90px;">
-                 <a  href="index.php?logout='1'" >LOGOUT</a> 
-             </button>
-
+             <p style="color:#F4BF55; margin-left:40px">Welcome
+             <strong style="font-size:20px; color:#ffffff;" > <?php echo $_SESSION['username']; ?></strong>
+             
+            <button style="background-color: #F4BF55; height: 30px; width: 90px; border-radius: 16px; border:none">
+                 <a href="index.php?logout='1'" style="color:#ffffff;">Log-out</a>
+            </button>
+        </p>
              
 
         
