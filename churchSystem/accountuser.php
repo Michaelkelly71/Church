@@ -21,7 +21,7 @@ if (isset($_GET['logout'])) {
 </head>
 
 <body id="page-top">
-<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color: rgb(72,132,191);">
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color: #ffffff;">
     <div class="container">
         <a id="logo" class="navbar-brand js-scroll-trigger" href="profileuser.php"><img src="adventist-en-centered--denim.png",top left no-repeat, width="100" height="100" alt= "logo">&nbsp; G S W C</a>
 
@@ -31,13 +31,13 @@ if (isset($_GET['logout'])) {
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="color: blueviolet;">Services</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="color: #ffffff;">Services</a></li>
 
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio" style="color: blueviolet;">Gallery</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio" style="color: #ffffff;">Gallery</a></li>
 
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact" style="color: blueviolet;">Contact</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact" style="color: #ffffff;">Contact</a></li>
 
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="profileuser.php" style="color: blueviolet;">Account</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="profileuser.php" style="color: #ffffff;">Account</a></li>
             </ul>
         </div>
     </div>
@@ -58,12 +58,18 @@ if (isset($_GET['logout'])) {
         <?php  if (isset($_SESSION['username'])) : ?>
             <p>Welcome <strong style="font-size:20px; color: red;"><?php echo $_SESSION['username']; ?></strong></p>
             <br>
-            <p> <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="index.php?logout='1'" style="background-color: red; color: ;">logout</a> </p>
+             <button style="background-color: #F4BF55; color:#ffffff; height: 40px; width: 90px;">
+                 <a  href="index.php?logout='1'" >LOGOUT</a> 
+             </button>
+
+             
+
+        
         <?php endif ?>
     </div>
 </nav>
 <!-------------======================================--------------------->
-<header class="masthead text-center text-black d-flex" style="background-color:papayawhip;">
+<header class="masthead text-center text-black d-flex" style="background-color:#08A0CA; color:#ffffff">
     <div class="container my-auto">
         <div class="row">
             <div class="col-lg-10 mx-auto">

@@ -5,7 +5,7 @@
     $errors = array();
 
 //connecting to mysql
-    $db = mysqli_connect("localhost", "root", "mack1234", "ch");
+    $db = mysqli_connect("localhost", "root", "", "ch");
 
 // Check connection
     if (!$db) {
