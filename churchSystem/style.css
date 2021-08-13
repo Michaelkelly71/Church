@@ -104,3 +104,13 @@ form, .content {
     position: relative;
     right: 50px;
 }
+
+a:link, a:visited {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+}

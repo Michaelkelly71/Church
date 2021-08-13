@@ -10,7 +10,7 @@ include('design.php');
     <link rel="stylesheet" type="text/css">
     <style>
         a:link, a:visited {
-            color: #5F9EA0;
+            color: #ffffff;
             padding: 10px;
             text-align: center;
             text-decoration: none;
@@ -24,11 +24,11 @@ include('design.php');
         }
     </style>
 </head>
-<body class="body" style="background-color: lightgrey;">
+<body class="body" style="background-color: #08A0CA;">
     
-        <div class="home">
-            <p>
-                <a href="index.php">Home</a>
+        <div class="home" ">
+            <p style="color:white">
+                <a href="index.php" >Home</a>
             </p>
         </div>
         
@@ -42,25 +42,25 @@ include('design.php');
          <div id="container">
      
          <div class="form_group" style="height: 30px; width: 28%;">
-           <label width="34%" style="color: darkblue; padding-right:206px;">Login ID</label>
+           <label width="34%" style="color: #000000; padding-right:206px;">Login ID</label>
              <input type="text" name="username" id="username" placeholder="Enter your ID"  style="background-color: #e4e4e4; border-radius: 15px; border: none;" >
          </div><br><br><br>
       
        
          <div class="form_group" style="height: 30px; width: 28%;">
-           <label style="color: darkblue; padding-right:206px;">Password</label>
+           <label style="color: #000000; padding-right:206px;">Password</label>
              <input type="password" name="password" id="password" placeholder="Enter your password"  style="background-color: #e4e4e4; border-radius: 15px; border: none;" >
          </div>
         <br><br>
 
      
           <div class="input-group">
-             <button type="submit" class="btn" name="login" style="background-color: green; border-radius: 13px; border: none; height: 20px; width: 5%;" >Login</button>
+             <button type="submit" class="btn" name="login" style="background-color: #F4BF55; border-radius: 15px; border: none; height: 40px; width: 10%;">Login</button>
         </div>
 
          <strong>
             <p>
-              <a href="forgot%20password.php">Reset Password</a>
+              <a href="forgot%20password.php" >Reset Password</a>
             </p>
 
            <p>
