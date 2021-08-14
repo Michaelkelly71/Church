@@ -21,16 +21,14 @@ if (isset($_GET['logout'])) {
 </head>
 
 <body id="page-top">
-<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color: rgb(72,132,191);">
-    <div class="container">
-        <a id="logo" class="navbar-brand js-scroll-trigger" href="index.php"><img src="assets/img/pageheadertitleimage_en_us.png" width="100" height="100" alt= "logo"">&nbsp; vvu Church</a>
-        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive"
-                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-align-justify"></i>
-        </button>
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="color:#08A0CA; background-color:#08A0CA">
+       <a id="logo" class="navbar-brand js-scroll-trigger" href="profileadmin.php">
+           <img src="adventist-en-centered--denim.png",top left no-repeat, width="100" height="70" alt= "logo">&nbsp; G S W C</a>
+<div class="container">
+      
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" >Services</a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="profileadmin.php">Account</a></li>
@@ -52,26 +50,33 @@ if (isset($_GET['logout'])) {
 
         <!-- logged in user information -->
         <?php  if (isset($_SESSION['username'])) : ?>
-            <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-            <p> <a href="index.php?logout='1'" style="text-decoration: none; color: red;">logout</a> </p>
+            <p style="color:#ffffff; margin-left:40px">Welcome
+             <strong style="font-size:20px; color: red;" > <?php echo $_SESSION['username']; ?></strong>
+             
+            <button style="background-color: #F4BF55; height: 30px; width: 90px; border-radius: 16px; border:none">
+                 <a href="index.php?logout='1'" style="color:#ffffff;">Log-out</a>
+            </button>
+        </p>
         <?php endif ?>
     </div>
 </nav>
-<header class="masthead text-center text-white d-flex" style="background-image: url(&quot;assets/img/header.jpg&quot;);">
+<!-------------======================================--------------------->
+<header class="masthead text-center text-black d-flex" style="background-color:#08A0CA; color:#ffffff">
     <div class="container my-auto">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <h1 class="text-uppercase">WELCOME TO VALLEY VIEW UNIVERSITY CHURCH</h1>
+                <h2 class="text-uppercase">Glorious saints worship center<br>(G S W C)</h2>
                 <hr>
             </div>
         </div>
         <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">"The Church is not a gallery for the better exhibition of eminent Christians, but a school for the education of imperfect ones."</p>
+            <p style="color:black;">"The Church is not a gallery for the better exhibition of eminent Christians, but a school for the education of imperfect ones."</p>
             <p>-Henry Ward Beecher</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" href="#services" style="background-color: rgb(74,76,143);">Find Out More</a>
         </div>
     </div>
 </header>
+<!-------------======================================--------------------->
 <section id="services">
     <div class="container">
         <div class="row">
@@ -113,13 +118,14 @@ if (isset($_GET['logout'])) {
         </div>
     </div>
 </section>
+<!-------------======================================--------------------->
 <section id="portfolio" class="p-0">
     <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
             <div class="col-sm-6 col-lg-4">
                 <a href="assets/img/fullsize/1.jpg" class="portfolio-box" style="background-image: url(&quot;assets/img/IMAGE%202019-12-06%20101120.jpg&quot;);">
                     <img class="img-fluid" src="assets/img/thumbnails/1.jpg" alt="fluid">
-                    <div class="portfolio-box-caption" style="background-color: #2a1a17;">
+                    <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                             </div>
@@ -165,6 +171,7 @@ if (isset($_GET['logout'])) {
         </div>
     </div>
 </section>
+<!-------------======================================--------------------->
 <section id="contact">
     <hr>
     <div class="container">
@@ -187,6 +194,7 @@ if (isset($_GET['logout'])) {
         </div>
     </div>
 </section>
+<!-------------======================================--------------------->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
