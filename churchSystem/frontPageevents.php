@@ -47,7 +47,7 @@
 <div class="container" style="width:1400px;">
 
     <?php
-        $db = mysqli_connect("localhost", "root", "mack1234", "ch");
+        $db = mysqli_connect("localhost", "root", "", "ch");
         $query="select * from sabbathSchool";
         $result = mysqli_query($db, $query);;
     ?>
@@ -90,7 +90,7 @@
 
     
     <?php
-        $db = mysqli_connect("localhost", "root", "mack1234", "ch");
+        $db = mysqli_connect("localhost", "root", "", "ch");
         $query = "select * from events";
         $result = mysqli_query($db, $query);
     ?>
