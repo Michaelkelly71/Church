@@ -153,9 +153,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`ID`, `username`, `password`, `acctype`) VALUES
-(1, 'test', 'admin', 'admin'),
-(2, 'church', 'test', 'user'),
-(7, 'hi', 'red', 'user');
+(1, 'admin', '1234', 'admin'),
+(2, 'user', '123', 'user'),
+
 
 --
 -- Indexes for dumped tables

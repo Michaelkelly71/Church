@@ -30,9 +30,6 @@ include('design.php');
     <div align="center">
     <img src="adventist-en-centered--denim.png" style="height:25%; width:30%;">
                <h2 style="color:#ffffff">Register</h2>
-    <img src="adventist-en-centered--denim2.png" style="height:25%; width:30%;">
-    <h2 style="color:#ffffff">Register</h2>
-
     <form  method="post" action="registration.php">
 
         <?php include ('errors.php'); ?>
@@ -69,7 +66,7 @@ include('design.php');
                 Already a member? <a href="login.php">Login</a>
             </p>
         </div>
-        <div class="home" style="#F4BF55">
+        <div class="home" style="color: #F4BF55">
             <p>
                 Return home? <a href="index.php">Click Here</a>
             </p>

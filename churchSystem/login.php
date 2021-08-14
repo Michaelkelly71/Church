@@ -26,7 +26,7 @@ include('design.php');
 </head>
 <body class="body" style="background-color: #08A0CA;">
     
-        <div class="home" ">
+        <div class="home">
             <p style="color:white">
                 <a href="index.php" >Home</a>
             </p>
