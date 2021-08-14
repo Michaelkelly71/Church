@@ -16,7 +16,7 @@
 <header>
     <div class="row">
         <div class="logo">
-            <img src="VVU%20logo.png" style="width:100px; height:80px" alt="logo">
+        <img src="adventist-en-centered--denim.png" style=" width: 100px; height: 70px;" ,top left no-repeat, alt="logo">
         </div>
     </div>
 
@@ -36,7 +36,7 @@
         <!-- logged in user information -->
         <?php  if (isset($_SESSION['username'])) : ?>
         <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-        <p> <a href="index.php?logout='1'" style="text-decoration: none; color: red;">logout</a> </p>
+        <p> <a href="index.php?logout='1'" style="text-decoration: none; color: #08A0CA;">logout</a> </p>
         <?php endif ?>
     </div>
 

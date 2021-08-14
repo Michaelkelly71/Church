@@ -15,7 +15,7 @@
 <body>
 <header>
         <div class="logo">
-            <img src="adventist-en-centered--denim.png" style="size: width: 80px; height: 70px;" ,top left no-repeat, alt="logo">
+            <img src="adventist-en-centered--denim.png" style=" width: 80px; height: 70px;" ,top left no-repeat, alt="logo">
         </div>
     
 

@@ -50,8 +50,8 @@ if (isset($_GET['logout'])) {
 
         <!-- logged in user information -->
         <?php  if (isset($_SESSION['username'])) : ?>
-            <p style="color:#ffffff; margin-left:40px">Welcome
-             <strong style="font-size:20px; color: red;" > <?php echo $_SESSION['username']; ?></strong>
+            <p style="color:#F4BF55; margin-left:40px">Welcome-
+             <strong style="font-size:20px; color: #ffffff;" > <?php echo $_SESSION['username']; ?></strong>
              
             <button style="background-color: #F4BF55; height: 30px; width: 90px; border-radius: 16px; border:none">
                  <a href="index.php?logout='1'" style="color:#ffffff;">Log-out</a>
